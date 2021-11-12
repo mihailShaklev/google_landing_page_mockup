@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <header>
+            <nav class="nav">
+              <ul id="nav_bar">
+                <li class="nav-item"><a href="image-search.html" class="nav-link">Image Search</a></li>
+                <li class="nav-item"><a href="advanced-search.html" class="nav-link">Advanced Search</a></li>
+              </ul>
+            </nav>
+        </header>
+
+        <!-- Image -->
+
+        <div class="google">
+            <a href="#" id="google_logo"><img src="googles-new-logo.gif" alt=" photo google-logo"/></a>
+        </div>
+
+        <!-- Form -->
+
+        <div class="form">
+          <form id="my-form" method="GET" action="https://google.com/search">
+
+            <label for="form-search"></label>
+            <input class="searchbar" type="text" id="form-search" placeholder="Search Google or type URL" name="q">
+            <a href="#"><img class="voice" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/716px-Google_mic.svg.png" title="Search by Voice"></a>
+
+          </form>
+        </div>
+        <!--End Form -->
+        <!-- Buttons -->
+
+          <div class= "buttons">
+            <input form="my-form" class="button" type="submit" value="Google Search">
+            <input form="my-form" name="btnI" class="button" type="submit" value="I`m feeling lucky">
+          </div>
+    </body>
+</html>
